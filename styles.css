@@ -6,7 +6,7 @@
     --mainBlack: #000000;
     --mainGrey: #ececec;
     --mainSpacing: 0.1rem;
-    --mainTransition: all 0.3s linear;
+    --mainTransition: all 0.3s linear; 
     --auxillaryColor: #363535;
     --auxillaryTransition: all 3s linear;
     --mainTransition: all 0.3s;
@@ -710,7 +710,7 @@ marquee{
 
 .solution-post > h1, small, p{
     padding: 1rem 0;
-    line-height: 30px;
+    line-height: 70px;
 }
 
 #pick{

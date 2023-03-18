@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.account-div > span > img{
+    width: 20px;
+    color: white;
+}
+
+.account-div{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.account{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    padding: 10px 15px;
+    background-color: azure;
+    justify-content: space-between;
+}
+
+section{
+    max-width: 300px;
+    position: absolute;
+    top: 50%;
+    justify-content: center;
+    align-items: center;
+    width: 450px;
+    left: 50%;
+}
+.email{
+    display: flex;
+    justify-content: space-between;
+    margin: 10px;
+}
+
+a{
+    text-decoration: none;
+}
+
+.sign-in{
+    text-align: center;
+    font-size: 25px;
+    color: black;
+    background-color: azure;
+}
+
+hr{
+    margin: 20px 0;
+}
+
+.others{
+    display: flex;
+    justify-content: space-between;
+}
+
+.others > a{
+    color: rgb(183, 114, 114);
+}

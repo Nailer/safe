@@ -1,0 +1,143 @@
+.main-navbar{
+    position: sticky;
+    top: 0;
+    height: 55px;
+    align-items: center;
+    background: rgb(255, 255, 255);
+    display: flex;
+    width: 100%;
+    -moz-box-shadow: 0 4px 4px rgb(219, 215, 211);
+    -webkit-box-shadow: 0 4px 4px rgb(219, 215, 211);
+    box-shadow: 0 4px 4px rgb(219, 215, 211);
+    z-index: 1;
+}
+
+.main-navbar-container{
+    width: 100%;
+    /* align-items: center; */
+    display: flex;
+    /* max-width: 1170px; */
+    margin: 0 7rem;
+    /* padding: 0 3rem; */
+    justify-content: space-between;
+}
+
+.navbar-search{
+    align-items: center;
+    gap: 10px;
+}
+
+.navbar-searcharea{ 
+    align-content: center;
+    max-width: 1000px;
+    height: 40px;
+    gap: 10px;
+    width: 25rem;
+    border: 1px solid black;
+    padding: 0 7px;
+    border-radius: 5px;
+}
+
+.search-icon{
+    font-size: 20px;
+    align-self: center;
+    color: var(--auxillaryColor);
+}
+
+.search-place{
+    border: transparent;
+    outline: none;
+    background: transparent;
+    /* color: #ca1818; */
+    width: 100%;
+    margin: 9px;
+    font-size: 16px;
+}
+
+.flex-div{
+    display: flex;
+}
+
+.navbar-menu{
+    align-items: center;
+    gap: 10px;
+}
+
+.navbar-image{
+    height: 40px;
+    align-self: center;
+    border: 0;
+    border-radius: 9px;
+}
+
+.button-search{
+    height: 40px;
+    width: 80px;
+    border: none;
+    border-radius: 5px;
+    color: var(--mainWhite);
+    background-color: rgb(255, 115, 0);
+    cursor: pointer;
+    -moz-box-shadow: 0 4px 4px rgba(61, 61, 61, 0.4);
+    -webkit-box-shadow: 0 4px 4px rgba(61, 61, 61, 0.4);
+    box-shadow: 0 4px 4px rgba(61, 61, 61, 0.4);
+}
+
+.button-search:hover{
+    background-color: #cc8645;
+    transition: var(--mainTransition);
+}
+
+.navbar-menu{
+    gap: 20px;
+    align-items: center;
+}
+
+.navbar-menu > a, div > a{
+    gap: 3px;
+    align-items: center;
+    color: #000000;
+}
+
+.navbar-menu > .cart-icon > p{
+    cursor: pointer;
+}
+
+.navbar-cart{
+    position: relative;
+}
+
+.cart-items{
+    position: absolute;
+    top: 7px;
+    right: -5px;
+    background: rgb(255, 115, 0);
+    padding: 0 3px;
+    border-radius: 60%;
+    color: var(--mainWhite);
+}
+
+.cart-icon{
+    gap: 3px;
+}
+
+.account-div{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.account-div > a:hover{
+    color: #cc8645;
+    text-decoration: underline;
+    transition: all 1s linear;
+}
+
+a{
+    text-decoration: none;
+}
+
+.account-div > span > img{
+    width: 20px;
+    color: black;
+}
