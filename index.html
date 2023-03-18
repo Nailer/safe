@@ -9,6 +9,9 @@
     <link rel="stylesheet" href="./styles.css">
 </head>
 <body>
+    <audio id="myAudio">
+        <source src="/sound-and-videos/Recording.m4a" type="audio/mp3">
+    </audio>
     <!-- Small Navbar -->
     <nav class="small-navbar">
         <div class="small-div">
@@ -80,7 +83,7 @@
     <section class="category">
         <div class="category-container">
             <article class="article-lists-container">
-                <button class="audio-description">
+                <button class="audio-description" type="button" onclick="playera()" ondblclick="pause()">
                     <i class="fa-solid fa-audio-description"></i>
                     Click for Audio
                 </button>
