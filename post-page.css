@@ -1,3 +1,9 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/*---x-- Navbar --x--*/
 .main-navbar{
     position: sticky;
     top: 0;
@@ -6,10 +12,10 @@
     background: rgb(255, 255, 255);
     display: flex;
     width: 100%;
-    -moz-box-shadow: 0 4px 4px rgb(219, 215, 211);
+    /* -moz-box-shadow: 0 4px 4px rgb(219, 215, 211);
     -webkit-box-shadow: 0 4px 4px rgb(219, 215, 211);
-    box-shadow: 0 4px 4px rgb(219, 215, 211);
-    z-index: 1;
+    box-shadow: 0 4px 4px rgb(219, 215, 211); */
+    z-index: 1; 
 }
 
 .main-navbar-container{
@@ -141,3 +147,58 @@ a{
     width: 20px;
     color: black;
 }
+/*---x-- Navbar --x--*/
+
+/*----- Mini-Navbar ----*/
+li{
+    list-style-type: none;
+    color: rgb(255, 255, 255);
+    font-size: 12px;
+}
+.list-img > img{
+    height: 90px;
+    /* border-radius: 5px; */
+    margin: 10px;
+}
+
+.mini-list{
+    position: absolute;
+    top: -100rem;
+    border-radius: 5px;
+    width: 100%;
+    padding: 20px 20px;
+    margin: 0;
+    background-color: black;
+}
+
+.mini-navs{
+    justify-content: space-around;
+    background-color: #000000;
+}
+
+.mini-nav{
+    position: relative;
+}
+
+.mini-nav > h4{
+    color: rgb(151, 148, 148);
+    font-family: 'Dancing Script', cursive;
+    padding: 2px;
+    font-size: 10px;
+    font-family: 'Edu NSW ACT Foundation', cursive;
+}
+
+.lists-list{
+    gap: 10px;
+    font-size: 10px;
+    background-color: black;
+}
+
+.mini-nav:hover .mini-list{
+    top: 2px;
+    transition: all .8s left;
+    flex-wrap: wrap;
+    width: 700px;
+    /* width: 100%; */
+}
+/*---x-- Mini-Navbar --x--*/
