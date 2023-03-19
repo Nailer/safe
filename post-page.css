@@ -115,7 +115,7 @@
 
 .cart-items{
     position: absolute;
-    top: 7px;
+    top: -12px;
     right: -5px;
     background: rgb(255, 115, 0);
     padding: 0 3px;
@@ -144,16 +144,22 @@ a{
 }
 
 .account-div > span > img{
-    width: 20px;
+    width: 10px;
     color: black;
 }
 /*---x-- Navbar --x--*/
 
 /*----- Mini-Navbar ----*/
+.bold-list:hover{
+    color: red;
+    cursor: pointer;
+}
+
 li{
     list-style-type: none;
     color: rgb(255, 255, 255);
     font-size: 12px;
+    cursor: pointer;
 }
 .list-img > img{
     height: 90px;
@@ -169,36 +175,64 @@ li{
     padding: 20px 20px;
     margin: 0;
     background-color: black;
+    justify-content: center;
 }
 
 .mini-navs{
     justify-content: space-around;
-    background-color: #000000;
+    margin: 0 2.5rem;
 }
 
 .mini-nav{
     position: relative;
 }
 
+.mini-nav > h4:hover{
+    color: red;
+}
+
+.mini{
+    background-color: rgb(255, 115, 0);
+    max-width: 1400px;
+    /* overflow: hidden; */
+}
+
 .mini-nav > h4{
-    color: rgb(151, 148, 148);
-    font-family: 'Dancing Script', cursive;
-    padding: 2px;
-    font-size: 10px;
-    font-family: 'Edu NSW ACT Foundation', cursive;
+    color: rgb(255, 255, 255);
+    /* font-family: 'Dancing Script', cursive; */
+    padding: 9px;
+    font-size: 13px;
+    cursor: pointer;
+    text-transform: uppercase;
+    /* font-family: 'Edu NSW ACT Foundation', cursive; */
 }
 
 .lists-list{
     gap: 10px;
+    justify-content: space-between;
     font-size: 10px;
     background-color: black;
 }
 
 .mini-nav:hover .mini-list{
-    top: 2px;
-    transition: all .8s left;
+    top: 34px;
+    left: -280px;
+    transition: all .3s linear;
     flex-wrap: wrap;
-    width: 700px;
+    width: 480px;
+    height: 400px;
+    line-height: 18px;
     /* width: 100%; */
 }
 /*---x-- Mini-Navbar --x--*/
+
+/*------- Intro Img -------*/
+.intro-img > img{
+    width: 70%;
+    display: block;
+    margin: 20px 0;
+    margin-left: auto;
+    margin-right: auto;
+    height: 130px;
+}
+/*---x--- Intro Img ---x---*/
