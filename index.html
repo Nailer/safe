@@ -9,6 +9,9 @@
     <link rel="stylesheet" href="./styles.css">
 </head>
 <body>
+    <audio id="myAudio">
+        <source src="/sound-and-videos/Recording.m4a" type="audio/mp3">
+    </audio>
     <!-- Small Navbar -->
     <nav class="small-navbar">
         <div class="small-div">
@@ -45,7 +48,7 @@
                 <button class="button-search">Search</button>
             </div>
             <div class="navbar-menu flex-div">
-                <a href="account.html" class="navbar-user flex-div">
+                <a href="./account.html" class="navbar-user flex-div">
                     <i class="fa-solid fa-user"></i>
                     <p>Account</p>
                     <i class="fa-solid fa-caret-down"></i>
@@ -76,11 +79,11 @@
         has been introduced for the mobile-disabled. New: Tonosi is now accessible for the disabled not only when shopping but you can now sell on Tonosi with our accessibility features. The Future is Ours.</marquee>
     <!--x--- Marquee ---x-->
 
-    <!---- Tiles Section  ------>
+    <!----- Tiles Section  ------>
     <section class="category">
         <div class="category-container">
             <article class="article-lists-container">
-                <button class="audio-description">
+                <button class="audio-description" type="button" onclick="playera()" ondblclick="pause()">
                     <i class="fa-solid fa-audio-description"></i>
                     Click for Audio
                 </button>
@@ -405,7 +408,7 @@
     </section>
     <!--x-- Tiles Section  --x--->
     <!-------- View Posts -------->
-    <a href="post-page.html" class="view-post">
+    <a href="./post-page.html" class="view-post">
         <div id="moving-text">VIEW POSTS <i class="fa-solid fa-arrow-right"></i></div>
     </a>
     <!---x---- View Posts ----x--->

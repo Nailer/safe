@@ -1,3 +1,9 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/*---x-- Navbar --x--*/
 .main-navbar{
     position: sticky;
     top: 0;
@@ -6,10 +12,10 @@
     background: rgb(255, 255, 255);
     display: flex;
     width: 100%;
-    -moz-box-shadow: 0 4px 4px rgb(219, 215, 211);
+    /* -moz-box-shadow: 0 4px 4px rgb(219, 215, 211);
     -webkit-box-shadow: 0 4px 4px rgb(219, 215, 211);
-    box-shadow: 0 4px 4px rgb(219, 215, 211);
-    z-index: 1;
+    box-shadow: 0 4px 4px rgb(219, 215, 211); */
+    z-index: 1; 
 }
 
 .main-navbar-container{
@@ -109,7 +115,7 @@
 
 .cart-items{
     position: absolute;
-    top: 7px;
+    top: -12px;
     right: -5px;
     background: rgb(255, 115, 0);
     padding: 0 3px;
@@ -138,6 +144,172 @@ a{
 }
 
 .account-div > span > img{
-    width: 20px;
+    width: 10px;
     color: black;
 }
+/*---x-- Navbar --x--*/
+
+/*----- Mini-Navbar ----*/
+.bold-list:hover{
+    color: red;
+    cursor: pointer;
+}
+
+li{
+    list-style-type: none;
+    color: rgb(255, 255, 255);
+    font-size: 12px;
+    cursor: pointer;
+}
+.list-img > img{
+    height: 90px;
+    /* border-radius: 5px; */
+    margin: 10px;
+}
+
+.mini-list{
+    position: absolute;
+    top: -100rem;
+    border-radius: 5px;
+    width: 100%;
+    padding: 20px 20px;
+    margin: 0;
+    background-color: black;
+    justify-content: center;
+}
+
+.mini-navs{
+    justify-content: space-around;
+    margin: 0 2.5rem;
+}
+
+.mini-nav{
+    position: relative;
+}
+
+.mini-nav > h4:hover{
+    color: red;
+}
+
+.mini{
+    background-color: rgb(255, 115, 0);
+    max-width: 2500px;
+    /* overflow: hidden; */
+}
+
+.mini-nav > h4{
+    color: rgb(255, 255, 255);
+    /* font-family: 'Dancing Script', cursive; */
+    padding: 9px;
+    font-size: 13px;
+    cursor: pointer;
+    text-transform: uppercase;
+    /* font-family: 'Edu NSW ACT Foundation', cursive; */
+}
+
+.lists-list{
+    gap: 10px;
+    justify-content: space-between;
+    font-size: 10px;
+    background-color: black;
+}
+
+.mini-nav:hover .mini-list{
+    top: 34px;
+    left: -280px;
+    transition: all .3s linear;
+    flex-wrap: wrap;
+    width: 480px;
+    height: 400px;
+    line-height: 18px;
+    /* width: 100%; */
+}
+/*---x-- Mini-Navbar --x--*/
+
+/*------- Intro Img -------*/
+.intro-message{
+    background-color:  rgb(153, 119, 91);
+    margin-top: 20px !important;
+    padding: 100px 20px;
+    margin: 0 5rem;
+    border-radius: 5px;
+}
+
+.message-head{
+    color: red;
+    font-size: 30px;
+    gap: 20px;
+    /* width: 400px; */
+    flex-wrap: wrap;
+    margin: 20px 0;
+}
+.message-text{
+    margin: 20px 0;
+    color: purple;
+    font-size: 70px;
+}
+
+.message-form{
+    margin: 20px 0;
+    color: white;
+    font-size: 20px;
+    /* width: 400px; */
+}
+
+.message-details > a > button{
+    background-color: pink;
+    padding: 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 20px;
+    font-size: 25px;
+    margin: 20px 0;
+}
+/*---x--- Intro Img ---x---*/
+/*------ Brands and Posts -------*/
+.brands-img{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-gap: 2px;
+    padding-right: 15px;
+    grid-template-rows: 40% 40% 40% 40% 40% 40% 40% 40% 40% 40%;
+}
+
+.solution-brands > h3{
+    margin-bottom: 30px;
+    font-size: 25px;
+    color: var(--primaryColor);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.solution-brands{
+    margin-top: 180px;
+}
+
+.brands-img > img{
+    width: 70%;
+    border: 1px solid red;
+    padding: 0;
+    /* height: 1px; */
+    border-radius: 5px;
+}
+
+.brands-div{
+    display: grid;
+    grid-template-columns: 20% 70%;
+    margin: 0 5rem;
+}
+
+.products-details > img{
+    width: 350px;
+}
+
+.products-div{
+    margin-top: 180px;
+    justify-content: center;
+}
+
+.product-category{
+    margin: 50&;
+}
+/*---x--- Brands and Posts ---x---*/
