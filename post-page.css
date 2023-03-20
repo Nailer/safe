@@ -193,7 +193,9 @@ li{
 
 .mini{
     background-color: rgb(255, 115, 0);
-    max-width: 2500px;
+    
+    max-width: 1400px;
+    
     /* overflow: hidden; */
 }
 
@@ -228,6 +230,7 @@ li{
 
 /*------- Intro Img -------*/
 .intro-message{
+
     background-color:  rgb(153, 119, 91);
     margin-top: 20px !important;
     padding: 100px 20px;
@@ -313,3 +316,7 @@ li{
     margin: 50&;
 }
 /*---x--- Brands and Posts ---x---*/
+
+
+/*---x--- Intro Img ---x---*/
+
