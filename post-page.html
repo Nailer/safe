@@ -9,6 +9,9 @@
 </head>
 
 <body>  
+    <audio id="myAudio">
+        <source src="./sound-and-videos/use sound.mp3" type="audio/mp3">
+    </audio>
     <!------ Navbar Area ------->
     <nav class="main-navbar">
         <div class="main-navbar-container flex-div">
@@ -305,7 +308,13 @@
         </div>
     </nav>
     <!---x--- Mini-Navbar ---x--->
-
+    <marquee behavior="scroll" direction="left">Tonosi is now more accessible to all users, you can now see all the top and available 
+        products by clicking <a href="">View All</a> 
+        below each description in the posts. Just-in! New technology as <a href="">Face-On Technology</a> 
+        has been introduced for the mobile-disabled. New: Tonosi is now accessible for the disabled not only when shopping but you 
+        can now sell on Tonosi with our accessibility features. The Future is Ours. You can now listen to the audio and pause by double-clicking 
+        the same audio button. 
+    </marquee>
     <!------ Intro Image ------->
 
     <section>
@@ -356,12 +365,37 @@
                     <div class="products-details">
                         <img src="https://is4.revolveassets.com/images/p4/n/z/CTIL-WU274_V1.jpg" alt="">
                         <div class="product-category">
+                            <h4 id="text">Pillow Talk Lip Secrets Set</h4>
+                            <small id="text1">Charlotte Tilbury</small>
+                            <p id="text2">$32.89</p>
+                            <div class="products-voice">
+                                <button id="function" onclick="myFunction()">TEXT DETAILS</button>
+                                <button onclick="playera()" ondblclick="pause()">VOICE DETAILS</button>
+                            </div>
+                            <div class="select">
+                                <select id="cars">
+                                    <option value="volvo">Normal Packaging</option>
+                                    <option value="saab">Adhere Packaging</option>
+                                    <option value="opel">Medium Packaging</option>
+                                    <option value="audi">Easy Packaging</option>
+                                </select>
+                            </div>
+                            <button id="cart">ADD TO CART</button>
+                            <div class="size-button">
+                                <button id="increase">+</button>
+                                <button id="decrease">-</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="products-details">
+                        <img src="https://is4.revolveassets.com/images/p4/n/z/CTIL-WU274_V1.jpg" alt="">
+                        <div class="product-category">
                             <h4>Pillow Talk Lip Secrets Set</h4>
                             <small>Charlotte Tilbury</small>
                             <p>$32.89</p>
                             <div class="products-voice">
                                 <button id="function" onclick="myFunction()">TEXT DETAILS</button>
-                                <button>VOICE DETAILS</button>
+                                <button onclick="playera()" ondblclick="pause()">VOICE DETAILS</button>
                             </div>
                             <div class="select">
                                 <select id="cars">
@@ -385,8 +419,8 @@
                             <small>Charlotte Tilbury</small>
                             <p>$32.89</p>
                             <div class="products-voice">
-                                <button>TEXT DETAILS</button>
-                                <button>VOICE DETAILS</button>
+                                <button id="function" onclick="myFunction()">TEXT DETAILS</button>
+                                <button onclick="playera()" ondblclick="pause()">VOICE DETAILS</button>
                             </div>
                             <div class="select">
                                 <select id="cars">
@@ -410,8 +444,8 @@
                             <small>Charlotte Tilbury</small>
                             <p>$32.89</p>
                             <div class="products-voice">
-                                <button>TEXT DETAILS</button>
-                                <button>VOICE DETAILS</button>
+                                <button id="function" onclick="myFunction()">TEXT DETAILS</button>
+                                <button onclick="playera()" ondblclick="pause()">VOICE DETAILS</button>
                             </div>
                             <div class="select">
                                 <select id="cars">
@@ -435,8 +469,8 @@
                             <small>Charlotte Tilbury</small>
                             <p>$32.89</p>
                             <div class="products-voice">
-                                <button>TEXT DETAILS</button>
-                                <button>VOICE DETAILS</button>
+                                <button id="function" onclick="myFunction()">TEXT DETAILS</button>
+                                <button onclick="playera()" ondblclick="pause()">VOICE DETAILS</button>
                             </div>
                             <div class="select">
                                 <select id="cars">
@@ -460,8 +494,8 @@
                             <small>Charlotte Tilbury</small>
                             <p>$32.89</p>
                             <div class="products-voice">
-                                <button>TEXT DETAILS</button>
-                                <button>VOICE DETAILS</button>
+                                <button id="function" onclick="myFunction()">TEXT DETAILS</button>
+                                <button onclick="playera()" ondblclick="pause()">VOICE DETAILS</button>
                             </div>
                             <div class="select">
                                 <select id="cars">
@@ -485,8 +519,8 @@
                             <small>Charlotte Tilbury</small>
                             <p>$32.89</p>
                             <div class="products-voice">
-                                <button>TEXT DETAILS</button>
-                                <button>VOICE DETAILS</button>
+                                <button id="function" onclick="myFunction()">TEXT DETAILS</button>
+                                <button onclick="playera()" ondblclick="pause()">VOICE DETAILS</button>
                             </div>
                             <div class="select">
                                 <select id="cars">
@@ -510,33 +544,8 @@
                             <small>Charlotte Tilbury</small>
                             <p>$32.89</p>
                             <div class="products-voice">
-                                <button>TEXT DETAILS</button>
-                                <button>VOICE DETAILS</button>
-                            </div>
-                            <div class="select">
-                                <select id="cars">
-                                    <option value="volvo">Normal Packaging</option>
-                                    <option value="saab">Adhere Packaging</option>
-                                    <option value="opel">Medium Packaging</option>
-                                    <option value="audi">Easy Packaging</option>
-                                </select>
-                            </div>
-                            <button id="cart">ADD TO CART</button>
-                            <div class="size-button">
-                                <button>+</button>
-                                <button>-</button>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="products-details">
-                        <img src="https://is4.revolveassets.com/images/p4/n/z/CTIL-WU274_V1.jpg" alt="">
-                        <div class="product-category">
-                            <h4>Pillow Talk Lip Secrets Set</h4>
-                            <small>Charlotte Tilbury</small>
-                            <p>$32.89</p>
-                            <div class="products-voice">
-                                <button>TEXT DETAILS</button>
-                                <button>VOICE DETAILS</button>
+                                <button id="function" onclick="myFunction()">TEXT DETAILS</button>
+                                <button onclick="playera()" ondblclick="pause()">VOICE DETAILS</button>
                             </div>
                             <div class="select">
                                 <select id="cars">
@@ -574,6 +583,118 @@
             </div>
         </div>
     </section>
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-divs">
+            <div class="footer-mini flex-div">
+                <div class="footer-img">
+                    <img src="/images/head.jpeg" alt="">
+                </div>
+                <div class="footer-mini-details">
+                    <h4 class="color">NEW TO TONOSI?</h4>
+                    <p class="color">Subscribe to our newsletter to get updates on our latest offers</p>
+                    <div class="mini-info flex-div">
+                        <div class="mini-email">
+                            <span class="mini-email-icon">
+                                <i class="fa-regular fa-envelope color bin"></i>
+                            </span>
+                            <input class="color bin" type="text" placeholder="Enter Your Email">
+                        </div>
+                        <button id="button">MALE</button>
+                        <button id="button">FEMALE</button>
+                    </div>
+                </div>
+                <div class="mini-download">
+                    <div class="download-info flex-div">
+                        <div class="download-icon">
+                            <i id="icon" class="fa-solid fa-check color"></i>
+                        </div>
+                        <div class="download-text">
+                            <h4 class="color">DOWNLOAD TONOSI APP</h4>
+                            <p class="color">Get Exclusive Offers!</p>
+                            <button id="button">SOON</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-div">
+                <div class="footer-below flex-div">
+                    <ul class="below-first">
+                        <li style="font-weight: bold;" class="below-lists">LET US HELP YOU</li> <br>
+                        <li>Help Center</li>
+                        <li>Contact Us</li>
+                        <li>How to shop on Tonosi?</li>
+                        <li>Delivery options and timelines</li>
+                        <li>How to return a product on Tonosi?</li>
+                        <li>Corporate and bulk purchases</li>
+                        <li>Report a Product</li>
+                        <li>Ship your package anywhere</li>
+                        <li>Dispute Resolution Policy</li>
+                        <li>Returns and Refunds Policy</li> <br>
+                        <br>
+                        <div class="li-div">
+                            <h3>JOIN TONOSI TODAY</h3>
+                            <div class="li-social">
+                                <span><i class="fa-brands fa-facebook"></i></span>
+                                <span><i class="fa-brands fa-instagram"></i></span>
+                                <span><i class="fa-brands fa-youtube"></i></span>
+                                <span><i class="fa-brands fa-twitter"></i></span>
+                            </div>
+                        </div>
+                    </ul>
+                    <ul class="below-second">
+                        <li style="font-weight: bold;" class="below-lists">ABOUT TONOSI</li> <br>
+                        <li>About us</li>
+                        <li>TONOSI careers</li>
+                        <li>TONOSI Express</li>
+                        <li>Terms and Conditions</li>
+                        <li>Privacy Notice</li>
+                        <li>Cookie Notice</li>
+                        <li>TONOSI Global</li>
+                        <li>Official Stores</li>
+                        <li>Flash Sales</li>
+                        <li>Tech Week 2023</li> <br>
+                        <br>
+                        <div class="li-div">
+                            <h3>PAYMENT METHODS & DELIVERY PARTNERS</h3>
+                            <div class="li-social">
+                                <span><i class="fa-brands fa-paypal"></i></span>
+                                <span><i class="fa-brands fa-cc-visa"></i></span>
+                                <span><i class="fa-brands fa-cc-mastercard"></i></span>
+                                <span><i class="fa-brands fa-dhl"></i></span>
+                                <span><i class="fa-solid fa-truck-fast"></i></span>
+                                <!-- <span><img src="/images/header_2.png" alt=""></span> -->
+                            </div>
+                        </div>
+                    </ul>
+                    <ul class="below-second">
+                        <li style="font-weight: bold;" class="below-lists">TONOSI INTERNATIONAL</li> <br>
+                        <li>U.S.A.</li>
+                        <li>Egypt</li>
+                        <li>U.K.</li>
+                        <li>Ivory</li>
+                        <li>Kenya</li>
+                        <li>Zando</li>
+                        <li>Britain</li>
+                        <li>Tunisia</li>
+                        <li>Senegal</li>
+                        <li>Senegal</li>
+                    </ul>
+                    <ul class="below-second">
+                        <li style="font-weight: bold;" class="below-lists">MAKE MONEY WITH TONOSI</li> <br>
+                        <li>Sell on TONOSI</li>
+                        <li>Become a Sales Consultant</li>
+                        <li>Become a Logistics Service Partner</li>
+                        <li>Join the TONOSI Academy</li>
+                        <li>Join the TONOSI Program</li>
+                    </ul>
+                </div>
+            </div>
+            <small><i class="fa-regular fa-copyright"></i> copyright 2023. Tonosi Administrative/Estée Lauder Companies</small>
+        </div>
+    </footer>
+    <!-- Footer -->
+
     <!---x--- Brands & Posts ---x--->
     <script src="./post-page.js"></script>
 

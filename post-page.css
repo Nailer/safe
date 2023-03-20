@@ -260,6 +260,12 @@ li{
     /* width: 400px; */
 }
 
+.message-details > a > button:hover{
+    background-color: black;
+    color: pink;
+    transition: all 1s linear;
+}
+
 .message-details > a > button{
     background-color: pink;
     padding: 20px;
@@ -416,7 +422,142 @@ li{
     cursor: pointer;
 }
 /*---x--- Brands and Posts ---x---*/
+.footer-divs{
+    background-color: rgb(102, 98, 98);
+}
 
+.footer-mini{
+    /* margin: 0 5rem; */
+    justify-content: space-between;
+    height: 280px;
+    padding: 15px 5rem;
+    background-color: rgb(29, 28, 28);
+}
 
-/*---x--- Intro Img ---x---*/
+.footer-img > img{
+    border-radius: 10px;
+    height: 50px;
+}
+
+.color{
+    color: white;
+}
+
+.footer-mini-details > h4 , .download-text > h4{
+    font-size: 12px;
+}
+
+.footer-mini-details > p , .download-text > p{
+    font-size: 10px;
+    color: gray;
+}
+
+.mini-email{
+    align-items: center;
+    display: flex;
+    gap: 10px;
+    border-radius: 5px;
+    padding: 15px 10px;
+    background-color: var(--mainWhite);
+}
+
+.bin{
+    height: 20px;
+    border: none;
+    color: var(--mainBlack);
+    outline: none;
+}
+
+input::placeholder{
+    color: var(--mainBlack);
+    height: 50px;
+    font-size: 15px;
+}
+
+.mini-info{
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+}
+
+#button{
+    height: 50px;
+    width: 70px;
+    background-color: var(--mainBlack);
+    color: var(--mainWhite);
+    border: 1px var(--mainWhite) solid;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#button:hover{
+    color: var(--primaryColor);
+    border: 1px solid var(--primaryColor);
+    transition: var(--mainTransition);
+}
+
+.footer-below{
+    justify-content: space-between;
+    padding: 15px 5rem;
+    color: white;
+    font-size: 12px;
+    line-height: 20px;
+    font-family: 'Dancing Script', cursive;
+    font-family: 'Edu NSW ACT Foundation', cursive;
+    opacity: 80%;
+}
+
+#text{
+    font-size: 25px;
+}
+
+#text1{
+    font-size: 15px;
+}
+
+#text2{
+    font-size: 12px;
+    margin: 5px;
+}
+
+marquee{
+    width: 95%;
+    margin: 0 30px;
+    color: var(--secondColor);
+}
+
+.footer-below > ul > li{
+    cursor: pointer;
+}
+
+.footer-below > ul > li:hover{
+    color: var(--primaryColor);
+    transition: var(--mainTransition);
+    opacity: 100%;
+    text-decoration: underline;
+}
+
+.li-social{
+    display: flex;
+    gap: 20px;
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+.li-social > span:hover{
+    color: orange;
+    transition: var(--mainTransition);
+}
+
+.footer-divs > small{
+    margin: 0;
+    margin-top: 15px !important;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    color: var(--mainWhite);
+    align-items: center;
+    font-size: 10px;
+    gap: 7px;
+}
 
